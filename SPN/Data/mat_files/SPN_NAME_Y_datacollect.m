@@ -1,5 +1,6 @@
-%% SPN-NAME-Y27632 data collection
+% SPN-NAME-Y27632 data collection
 % create results matrices
+function [CN_matrix_m,CN_matrix_t,PC_matrix_m,PC_matrix_t,PD_matrix_m,PD_matrix_t,Freq_matrix_m,Freq_matrix_t] = SPN_NAME_Y_datacollect
 CN_matrix_m = zeros(6,3);
 PC_matrix_m = zeros(6,3);
 PD_matrix_m = zeros(6,3);
@@ -237,4 +238,4 @@ save('/Users/nickmitrou/Documents/SFU/PhD/Projects/SPN-LNAME-Y27632/SPN/Data/mat
 
 save('/Users/nickmitrou/Documents/SFU/PhD/Projects/SPN-LNAME-Y27632/SPN/Data/mat_files/SPN_NAME_Y_FR_m.mat','Freq_matrix_m');
 save('/Users/nickmitrou/Documents/SFU/PhD/Projects/SPN-LNAME-Y27632/SPN/Data/mat_files/SPN_NAME_Y_FR_t.mat','Freq_matrix_t');
-
+end
